@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+// ViewController を格納する変数
+@property (nonatomic) ViewController* delegate;
+
+
+- (void)setDelegateView:(UIViewController*)delegateData;
 
 @end
 

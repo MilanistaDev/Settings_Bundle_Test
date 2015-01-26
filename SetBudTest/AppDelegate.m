@@ -14,6 +14,9 @@
 
 @implementation AppDelegate
 
+-(void) setDelegateView:(ViewController*)delegetData{
+    _delegate = delegetData;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -36,6 +39,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    // バックグラウンドから復帰した時に load 関数を呼び出す
+    [_delegate load];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

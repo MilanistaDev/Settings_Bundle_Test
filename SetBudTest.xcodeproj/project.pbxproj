@@ -14,6 +14,7 @@
 		FD5741241A7250030003B83F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5741231A7250030003B83F /* Images.xcassets */; };
 		FD5741271A7250040003B83F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5741251A7250030003B83F /* LaunchScreen.xib */; };
 		FD5741331A7250040003B83F /* SetBudTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5741321A7250040003B83F /* SetBudTestTests.m */; };
+		FD953FCC1A76D09900BF844D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD953FCB1A76D09900BF844D /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FD57412C1A7250040003B83F /* SetBudTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetBudTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5741311A7250040003B83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD5741321A7250040003B83F /* SetBudTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetBudTestTests.m; sourceTree = "<group>"; };
+		FD953FCB1A76D09900BF844D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				FD57411D1A7250030003B83F /* ViewController.h */,
 				FD57411E1A7250030003B83F /* ViewController.m */,
 				FD5741201A7250030003B83F /* Main.storyboard */,
+				FD953FCB1A76D09900BF844D /* Settings.bundle */,
 				FD5741231A7250030003B83F /* Images.xcassets */,
 				FD5741251A7250030003B83F /* LaunchScreen.xib */,
 				FD5741161A7250030003B83F /* Supporting Files */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD953FCC1A76D09900BF844D /* Settings.bundle in Resources */,
 				FD5741221A7250030003B83F /* Main.storyboard in Resources */,
 				FD5741271A7250040003B83F /* LaunchScreen.xib in Resources */,
 				FD5741241A7250030003B83F /* Images.xcassets in Resources */,
@@ -412,6 +416,7 @@
 				FD5741381A7250040003B83F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD5741391A7250040003B83F /* Build configuration list for PBXNativeTarget "SetBudTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				FD57413B1A7250040003B83F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
